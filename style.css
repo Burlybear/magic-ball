@@ -9,3 +9,21 @@ h1{
 	text-align: center;
 	color:blue;
 }
+h2{
+	position: fixed;
+	top:20vw;
+	left: 44.5vw;
+	text-align: center;
+	color:red;
+}
+button{
+	position: fixed;
+	top:44vw;
+	left:46vw;
+	background-color: lightgreen;
+	color:darkblue;
+}
+button:hover{
+	color:lightgreen;
+	background-color: darkblue;
+}
