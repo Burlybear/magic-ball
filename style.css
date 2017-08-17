@@ -1,28 +1,31 @@
 body{
 	background-image: url("Magicball.png");
 	background-repeat:no-repeat;
-	background-size:50vw;
+	background-size:50vh;
 	background-position: top;
-	background-color: green;
+	background-color: #3f0254;
+
 }
 h1{
 	text-align: center;
 	color:blue;
 }
+
 h2{
-	position: fixed;
-	top:20vw;
-	left: 44.5vw;
+	padding-top: 10%;
+	margin: 0 auto;
 	text-align: center;
 	color:red;
 }
+
 button{
 	position: fixed;
-	top:44vw;
+	top:44vh;
 	left:46vw;
 	background-color: lightgreen;
 	color:darkblue;
 }
+
 button:hover{
 	color:lightgreen;
 	background-color: darkblue;
