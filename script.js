@@ -3,8 +3,8 @@
  	var one = ["Coming events cast their shadows before them", "Every man has his hobby horse", "A friend to everybody is a friend to nobody", "A straight foot is not afraid of a crooked shoe", "All things are difficult before they are easy", "Opportunity knocks at the door only once", "Everything is small except the east wind", "small as it is, the sparrow has all vital organs", "Where ignorance is bliss, it is folly to be wise", "A thousand step journey is started with  a single step", "a person can do no more than they can" ]
  	var two = ["As you wish", "Frankly my dear, I don't give a dam", "There can only be 1", "As if!", "Just when I thought I was out, they pulled me back in!", "Nobody's perfect", "Go ahead, make my day", "Pay no atention to the man behind the curtain", "Just keep swimming", "Run, Forest run!", "What we've got is a failure to communicate", "Roads? Where we are going, we don't need any roads"]
  	var three = ["Fasten your seatbelts, it's going to be a bumpy ride", "Carpe diem. Sieze the day boys!", "Their's no crying in baseball", "Leave the gun, take the cannoli", "Houstin, we have a problem", "To infinity and beyond", "You can't handle the truth", "You talkin' to me", "You are going to need a bigger boat", "You cannot keep bumping your head against reality and saying it is not their", "We all go a little mad sometimes", "Insanity runs in my family. It practically gallops"]
- 	var four = ["sometimes angels rush in where fools fear to tread"]
- 	var five = ["5"]
+ 	var four = ["sometimes angels rush in where fools fear to tread", "It is not the stars to hold our destiny, but in ourselves", "There is nothing good or bad but the thing making it so", "Cowards die many times before their deaths; the valaint never taste death but once", "Some are born great, some acheive greatness, and some have greatness thrust upon them", "Hell is empty and all the devils are here", "This above all else: to thy own true self be true", "Better three minutes to soon then a minute too late", "Like as the waves make twards the pebbl'd shore, so do our minutes hasten to the end", "We are such such stuff as our dreams are made on, and our little life is rounded with sleep", "I say there is no darkness but ignorance", "Let me embrace thee sour adversity for wise men say it is the wisest course"]
+ 	var five = ["Brevity is the soul of wit", "With mirth and laughter let wrinkles come", "In time we hate that which we often fear", "nothing can come of nothing", "Fortune brings in some boats that are not steered", "What is done can't be undone", "I am not bound to please thee with my answer", "Neither a borrower nor lender be", "", "", "", ""]
  	var six = ["6"]
  	var seven = ["7"]
  	var eight = ["8"]
@@ -28,8 +28,6 @@
 
 		$("button").click(function(){
 			hour()
-			console.log(day)
-			console.log(h)
 			if(c>=4){
 				hour()
 				$("h2").text("");
@@ -43,7 +41,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 			}else if (h==12 && day == 0 || h==1 && day==1 || h==2 && day==2 || h==3 &&day==3 || h==4 && day==4 || h==5 && day==5 || h==6 && day==6){
@@ -53,7 +51,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 				day = today.getDay();
@@ -65,7 +63,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 				day = today.getDay();
@@ -76,7 +74,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 				day = today.getDay();
@@ -87,7 +85,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 				day = today.getDay();
@@ -98,7 +96,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 				day = today.getDay();
@@ -109,7 +107,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 				day = today.getDay();
@@ -120,7 +118,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 				day = today.getDay();
@@ -131,7 +129,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 				day = today.getDay();
@@ -142,7 +140,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 				day = today.getDay();
@@ -153,7 +151,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 				day = today.getDay();
@@ -164,7 +162,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 				day = today.getDay();
@@ -175,7 +173,7 @@
 				var computerChoice = l[Math.floor(Math.random() * l.length)];
 				$("h2").text(computerChoice)
 				c=c+1;
-				console.log(l);
+				console.log(computerChoice);
 				console.log(c);
 				h = today.getHours();
 				day = today.getDay();
